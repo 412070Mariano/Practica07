@@ -1,0 +1,30 @@
+<div class="col g-3 align-items-center" style="width: 40%;">
+    <form id="form_turnos" class="form" onsubmit="return validar_turno()">
+        <div class="mb-3">
+            <label class="form-label" for="idTurno">Id turno:</label>
+            <input class="form-control" id="idTurno" type="number">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="fechaTurno">Fecha:</label>
+            <input class="form-control" id="fechaTurno" type="date">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="horaTurno">Hora:</label>
+            <input class="form-control" id="horaTurno" type="time">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="clienteTurno">Cliente:</label>
+            <select id="clienteTurno">
+                <option value="cliente 1">Cliente 1</option>
+                <option value="cliente 2">Cliente 2</option>
+                <option value="cliente 3">Cliente 3</option>
+                <option value="cliente 4">Cliente 4</option>
+                <option value="cliente 5">Cliente 5</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <button id="boton" class="btn btn-primary" type="submit">Enviar</button>
+            <button class="btn btn-secondary" type="reset">Limpiar</button>
+        </div>
+    </form>
+</div>
